@@ -76,13 +76,30 @@ label{display:block;font-weight:700;margin:12px 0 5px}input,textarea{width:100%;
 <section id="gallery">
   <h2>Temple Gallery</h2>
   <div class="grid" id="galleryGrid">
-    <img src="your-photo-name.jpg" alt="Temple Photo">
+    <img src="YOUR-PHOTO-NAME.jpg" alt="Temple Photo">
   </div>
   <p class="small center">More photos can be added later using Edit Website.</p>
 </section>
-```[span_1](start_span)[span_1](end_span)
+```[span_0](start_span)[span_0](end_span)
 
-Replace **`your-photo-name.jpg`** with the exact filename of the photo you uploaded to your repository[span_2](start_span)[span_2](end_span)[span_3](start_span)[span_3](end_span). Save the file by clicking **Commit changes...** at the bottom[span_4](start_span)[span_4](end_span)[span_5](start_span)[span_5](end_span).
+---
+
+### What to change inside the code:
+Replace **`YOUR-PHOTO-NAME.jpg`** with the exact filename of the image file you uploaded to GitHub (including the correct `.jpg` or `.png` extension)[span_1](start_span)[span_1](end_span). 
+
+If you have multiple photos, add a new line for each photo inside the `galleryGrid` `<div>`[span_2](start_span)[span_2](end_span)[span_3](start_span)[span_3](end_span):
+
+```html
+<section id="gallery">
+  <h2>Temple Gallery</h2>
+  <div class="grid" id="galleryGrid">
+    <img src="photo1.jpg" alt="Temple Photo 1">
+    <img src="photo2.jpg" alt="Temple Photo 2">
+    <img src="photo3.jpg" alt="Temple Photo 3">
+  </div>
+  <p class="small center">More photos can be added later using Edit Website.</p>
+</section>
+```[span_4](start_span)[span_4](end_span)
   
 <section id="contact">
 <h2>Contact & Location</h2>
